@@ -1,0 +1,40 @@
+Tipos de requests
+
+USUARIO
+1- insert usuario (verificar user que no exista)
+2- selct contraseña del usuario
+2- selct USUARIO segun user
+3- update estado usuario
+
+
+CATEGORIA
+1- insert CATEGORIA
+2- Delete CATEGORIA
+3- select CATEGORIA segun INVENTARIO y BODEGA
+
+BODEGA
+1- insert BODEGA
+2- delete BODEGA
+3- select BODEGA segun BODEGA
+
+INVENTARIO
+1- insert INVENTARIO
+2- delete INVENTARIO
+3- select INVENTARIO 
+
+PRODUCTO
+1- insert PRODUCTO (pero antes consultar por sku a PRODUCTO)
+2- update PRODUCTO
+3- update estado del PRODUCTO
+4- selct de PRODUCTO segun CATEGORIA, INVENTARIO y BODEGA
+5- select PRODUCTO segun sku
+
+STOCK
+1- insert STOCK
+2- select cantidad_stock segun PRODUCTO y BODEGA
+3- update cantidad_stock segun PRODUCTO y BODEGA
+
+MOVIMIENTO
+1- insert MOVIMIENTO
+2- selct MOVIMIENTO segun fecha y por rango de fecha
+3- selct MOVIMIENTO segun fecha, producto, categoria, bodega
