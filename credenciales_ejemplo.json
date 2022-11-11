@@ -1,0 +1,7 @@
+{
+    "dbname": "inventario",
+    "user": "postgres",
+    "password": "1234321",
+    "host": "127.0.0.1",
+    "port": 5432
+}
